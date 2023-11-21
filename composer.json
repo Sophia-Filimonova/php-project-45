@@ -1,0 +1,14 @@
+{
+    "name": "hexlet/code",
+    "description": "brain games",
+    "authors": [
+        {
+            "name": "Sophia Filimonova",
+            "email": "sophfil708@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
+}
