@@ -21,7 +21,6 @@ function generateQuestion()
             $firstNumber = mt_rand(1, 25);
             $secondNumber = mt_rand(1, 10);
             $correctAnswer = $firstNumber * $secondNumber;
-
     }
     $question = "{$firstNumber} {$operator} {$secondNumber}";
     return [
