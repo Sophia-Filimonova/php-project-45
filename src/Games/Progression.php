@@ -11,6 +11,7 @@ function generateQuestion()
     $progrStep = mt_rand(2, 5);
     $indexMissNumber = mt_rand(0, PROGRESSION_LENGTH - 1);
     $progression = [];
+    $correctAnswer = '';
     for ($i = 0; $i < PROGRESSION_LENGTH; $i++) {
         $currentNumber = $progrStart + $i * $progrStep;
         if ($i === $indexMissNumber) {

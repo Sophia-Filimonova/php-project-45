@@ -10,6 +10,7 @@ function generateQuestion()
     $operator = $operators[array_rand($operators)];
     $firstNumber = mt_rand(1, 50);
     $secondNumber = mt_rand(1, 50);
+    $correctAnswer = '';
     switch ($operator) {
         case '+':
             $correctAnswer = $firstNumber + $secondNumber;
