@@ -13,7 +13,7 @@ function runGame(string $rules, callable $generateQuestion)
     $name = prompt('May I have your name?', '', ' ');
     line("Hello, %s!", $name);
     line($rules);
-    $i = 1;
+    $victory = true;
     for ($i = 1; $i <= ROUNDS_AMOUNT; $i++) {
         [
             'correct answer' => $correctAnswer,
@@ -28,10 +28,11 @@ function runGame(string $rules, callable $generateQuestion)
                 "'{$userAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'."
             );
             line("Let's try again, {$name}!");
+            $victory = false;
             break;
         }
     }
-    if ($i === ROUNDS_AMOUNT + 1) {
+    if ($victory) {
         line("Congratulations, {$name}!");
     }
 }
