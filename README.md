@@ -28,3 +28,8 @@ make install
 [![asciicast](https://asciinema.org/a/7nQpYufJayFkQnFixUIyUayhv.svg)](https://asciinema.org/a/7nQpYufJayFkQnFixUIyUayhv)
 * Brain-gcd:
 [![asciicast](https://asciinema.org/a/giz87hDvt429FHRWBWsBLY5sQ.svg)](https://asciinema.org/a/giz87hDvt429FHRWBWsBLY5sQ)
+* Brain-progression:
+[![asciicast](https://asciinema.org/a/CSiOFw8TZ6bZ4Gk6XnyYCuvJS.svg)](https://asciinema.org/a/CSiOFw8TZ6bZ4Gk6XnyYCuvJS)
+* Brain-prime:
+[![asciicast](https://asciinema.org/a/Q1YXdUgqcjM7NmTun1MMmcwkB.svg)](https://asciinema.org/a/Q1YXdUgqcjM7NmTun1MMmcwkB)
+

@@ -10,7 +10,7 @@ const ROUNDS_AMOUNT = 3;
 function runGame(string $rules, callable $generateQuestion)
 {
     line('Welcome to the Brain Game!');
-    $name = prompt('May I have your name?');
+    $name = prompt('May I have your name?', false, ' ');
     line("Hello, %s!", $name);
     line($rules);
     for ($i = 1; $i <= ROUNDS_AMOUNT; $i++) {
@@ -19,7 +19,7 @@ function runGame(string $rules, callable $generateQuestion)
             'question' => $question
         ] = $generateQuestion();
         line("Question: {$question}");
-        $userAnswer = prompt('Your answer: ');
+        $userAnswer = prompt('Your answer');
         if ($correctAnswer === $userAnswer) {
             line('Correct!');
         } else {
