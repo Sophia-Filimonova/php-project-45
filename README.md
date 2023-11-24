@@ -16,6 +16,9 @@ git clone https://github.com/Sophia-Filimonova/php-project-45.git
 cd php-project-45 
 make install
 ```
+## Rules
+
+Проект содержит 5 мини-игр, которые запускаются командами: make brain-even ("Проверка на четность"), make brain-сalc ("Калькулятор"), make brain-gcd ("Наибольший общий делитель"), make brain-progression ("Арифметическая прогрессия"), make brain-prime ("Простое ли число?"). Чтобы выиграть, необходимо правильно ответить на 3 вопроса.
 
 ## Asciinema
 
@@ -23,5 +26,5 @@ make install
 [![asciicast](https://asciinema.org/a/b4olwJNWIMYOdI7rIROpNIQ0n.svg)](https://asciinema.org/a/b4olwJNWIMYOdI7rIROpNIQ0n)
 * Brain-calc:
 [![asciicast](https://asciinema.org/a/7nQpYufJayFkQnFixUIyUayhv.svg)](https://asciinema.org/a/7nQpYufJayFkQnFixUIyUayhv)
-*Brain-gcd:
+* Brain-gcd:
 [![asciicast](https://asciinema.org/a/giz87hDvt429FHRWBWsBLY5sQ.svg)](https://asciinema.org/a/giz87hDvt429FHRWBWsBLY5sQ)

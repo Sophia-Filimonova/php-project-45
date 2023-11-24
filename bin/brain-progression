@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+$autoloadPath = __DIR__ . '/../vendor/autoload.php';
+require_once $autoloadPath;
+
+use const BrainGames\Games\Progression\RULES;
+use function BrainGames\Engine\runGame;
+
+runGame(RULES, 'BrainGames\Games\Progression\generateQuestion');
