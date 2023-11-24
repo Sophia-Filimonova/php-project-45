@@ -16,3 +16,12 @@ git clone https://github.com/Sophia-Filimonova/php-project-45.git
 cd php-project-45 
 make install
 ```
+
+## Asciinema
+
+* Brain-even:
+[![asciicast](https://asciinema.org/a/b4olwJNWIMYOdI7rIROpNIQ0n.svg)](https://asciinema.org/a/b4olwJNWIMYOdI7rIROpNIQ0n)
+* Brain-calc:
+[![asciicast](https://asciinema.org/a/7nQpYufJayFkQnFixUIyUayhv.svg)](https://asciinema.org/a/7nQpYufJayFkQnFixUIyUayhv)
+*Brain-gcd:
+[![asciicast](https://asciinema.org/a/giz87hDvt429FHRWBWsBLY5sQ.svg)](https://asciinema.org/a/giz87hDvt429FHRWBWsBLY5sQ)
